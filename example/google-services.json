@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283160590957",
+    "firebase_url": "https://stepfit-72dd5.firebaseio.com",
+    "project_id": "stepfit-72dd5",
+    "storage_bucket": "stepfit-72dd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283160590957:android:bdcb3d51acfe8b3f",
+        "android_client_info": {
+          "package_name": "com.noisyminner.stepfit20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283160590957-ga5d8as9ng52uuldp19fq2in7lt2mdim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noisyminner.stepfit20",
+            "certificate_hash": "D71DADDB0EE3044737E60ECD9DEC031D826E51CB"
+          }
+        },
+        {
+          "client_id": "283160590957-69iqdd3ccqj9408jeh2o6gqbodq976ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3V3WqCbE3SUQ6Bv7l6DYfuVKCrjyQ8O0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283160590957-69iqdd3ccqj9408jeh2o6gqbodq976ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="ArticleTextTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="ArticleImageTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">256dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="ArticleVideoTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">256dp</item>
+    </style>
+
+</resources>
