@@ -8,6 +8,7 @@ import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -78,6 +79,9 @@ public class VideoView extends BaseView implements OnPreparedListener, OnComplet
             int screenWidth = getContext().getResources().getDisplayMetrics().widthPixels;
             float scale = (float) screenWidth / dimens.getWidth();
             setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (scale * dimens.getHeight())));
+        } else {
+            float height = getContext().getResources().getDimension(R.dimen.default_height);
+            setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, (int) height));
         }
     }
 
